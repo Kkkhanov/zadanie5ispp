@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="./notify.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+  <main> 
+    <div class="product-gallery">
+        <div class="image-selector">
+            <div><img class="image-1" id="images" src="shirt.jpg"></div>
+            <div><img class="image-2" id="images" src="shirtt.jpg"></div>
+            <div><img class="image-3" id="images" src="shirttt.jpg"></div>
+        </div>
+
+        <div class="container"> <img id="big-image" src="shirt.jpg"></div>
+
+    </div>
+
+    <div class="product-description">
+        <div class="firstBoard">
+            <h1>Рубашка Medicine</h1>
+            <div class="navigation">
+                 <a href="/">Рубашки Medicine</a>
+                 <a href="/">Все модели Medicine</a>
+                 <a href="/">Рубашки</a>
+             </div>
+             <div class="prices">
+                    <span class="old-price">2 699</span>
+                    <span class="new-price">2 499 &#8381</span>
+                    <span class="price-promo">2 227 &#8381 - <span class="promo">с промокодом</span></span>
+            </div>
+            <div class="grey-box">
+                <div class="availability">
+                    <span><img src="mark.png">В наличие в магазине <a href="/">Lamoda</a></span>
+                </div>
+                <div class="delivery">
+                    <span><img src="delivery.png"> доставка</span>
+                </div>
+            </div>
+        </div>
+        <div class="counter">
+            <input type="button" id="buttonCountPlus" value="+">
+            <input type="number" value="1" disabled id="buttonCountNumber"></input>
+            <input type="button" id="buttonCountMinus" value="-">
+            <input type="hidden" value="1" id="num" name="num">
+        </div>
+        <form class="button-box">
+                <button type="button" class="purchase-button">КУПИТЬ</button>
+                <button type="button" class="favorites-button">В ИЗБРАННОЕ</button>
+        </form>
+        <div class="description">Рубашка Medicine выполнена из вискозной ткани с клетчатым узором. Детали: прямой крой, отложной воротник, планка и манжеты на пуговицах; карман на груди</div>
+        <div class="links">ПОДЕЛИТЬСЯ:
+            <a class="instagram" target="_blank" href="/"><img src="instagram.png" width="15px"></a>
+            <a class="google" target="_blank" href="/"><img src="google-plus.png" width="15px"></a>
+            <a class="facebook" target="_blank" href="/"><img src="facebook.png" width="15px"></a>
+            <a class="twitter" target="_blank" href="/"><img src="twitter.png" width="15px"></a>
+            <img class="shildik" src="shildik.png" width="25px">
+        </div>
+    </div>
+</main>  
+<div id="toast-parent">
+    <span id="toast"></span>
+</div> 
+<script src="sсript.js"></script>
+</body>
+</html>
